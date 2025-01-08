@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Learning Materials</title>
+    <link rel="stylesheet" href="steyles.css">
+</head>
+<body>
+    <header>
+        <h1>Language Learning Materials</h1>
+    </header>
+    <main>
+        <div id="sections">
+            <!-- Sections for each language -->
+            <div class="section" id="english">
+                <h2>English</h2>
+                <input type="file" id="englishUpload" multiple>
+                <button onclick="uploadFiles('english')">Upload</button>
+                <div class="file-list" id="englishFileList"></div>
+            </div>
+
+            <div class="section" id="turkish">
+                <h2>Turkish</h2>
+                <input type="file" id="turkishUpload" multiple>
+                <button onclick="uploadFiles('turkish')">Upload</button>
+                <div class="file-list" id="turkishFileList"></div>
+            </div>
+
+            <div class="section" id="french">
+                <h2>French</h2>
+                <input type="file" id="frenchUpload" multiple>
+                <button onclick="uploadFiles('french')">Upload</button>
+                <div class="file-list" id="frenchFileList"></div>
+            </div>
+
+            <div class="section" id="german">
+                <h2>German</h2>
+                <input type="file" id="germanUpload" multiple>
+                <button onclick="uploadFiles('german')">Upload</button>
+                <div class="file-list" id="germanFileList"></div>
+            </div>
+
+            <div class="section" id="russian">
+                <h2>Russian</h2>
+                <input type="file" id="russianUpload" multiple>
+                <button onclick="uploadFiles('russian')">Upload</button>
+                <div class="file-list" id="russianFileList"></div>
+            </div>
+
+            <div class="section" id="chinese">
+                <h2>Chinese</h2>
+                <input type="file" id="chineseUpload" multiple>
+                <button onclick="uploadFiles('chinese')">Upload</button>
+                <div class="file-list" id="chineseFileList"></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Language Learning Platform</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
